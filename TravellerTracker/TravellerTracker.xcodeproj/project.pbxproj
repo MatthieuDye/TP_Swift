@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		151E6FBB20246121002073FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E6FBA20246121002073FB /* AppDelegate.swift */; };
+		151E6FBD20246121002073FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E6FBC20246121002073FB /* ViewController.swift */; };
+		151E6FC020246121002073FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151E6FBE20246121002073FB /* Main.storyboard */; };
+		151E6FC320246121002073FB /* TravellerTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 151E6FC120246121002073FB /* TravellerTracker.xcdatamodeld */; };
+		151E6FC520246121002073FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151E6FC420246121002073FB /* Assets.xcassets */; };
+		151E6FC820246121002073FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151E6FC620246121002073FB /* LaunchScreen.storyboard */; };
+		151E6FD320246122002073FB /* TravellerTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E6FD220246122002073FB /* TravellerTrackerTests.swift */; };
+		151E6FDE20246122002073FB /* TravellerTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E6FDD20246122002073FB /* TravellerTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		151E6FCF20246122002073FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 151E6FAF20246121002073FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 151E6FB620246121002073FB;
+			remoteInfo = TravellerTracker;
+		};
+		151E6FDA20246122002073FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 151E6FAF20246121002073FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 151E6FB620246121002073FB;
+			remoteInfo = TravellerTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		151E6FB720246121002073FB /* TravellerTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravellerTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		151E6FBA20246121002073FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		151E6FBC20246121002073FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		151E6FBF20246121002073FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		151E6FC220246121002073FB /* TravellerTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravellerTracker.xcdatamodel; sourceTree = "<group>"; };
+		151E6FC420246121002073FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		151E6FC720246121002073FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		151E6FC920246121002073FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151E6FCE20246122002073FB /* TravellerTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravellerTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		151E6FD220246122002073FB /* TravellerTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellerTrackerTests.swift; sourceTree = "<group>"; };
+		151E6FD420246122002073FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151E6FD920246122002073FB /* TravellerTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravellerTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		151E6FDD20246122002073FB /* TravellerTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellerTrackerUITests.swift; sourceTree = "<group>"; };
+		151E6FDF20246122002073FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		151E6FB420246121002073FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151E6FCB20246122002073FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151E6FD620246122002073FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151E6FAE20246121002073FB = {
+			isa = PBXGroup;
+			children = (
+				151E6FB920246121002073FB /* TravellerTracker */,
+				151E6FD120246122002073FB /* TravellerTrackerTests */,
+				151E6FDC20246122002073FB /* TravellerTrackerUITests */,
+				151E6FB820246121002073FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		151E6FB820246121002073FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				151E6FB720246121002073FB /* TravellerTracker.app */,
+				151E6FCE20246122002073FB /* TravellerTrackerTests.xctest */,
+				151E6FD920246122002073FB /* TravellerTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		151E6FB920246121002073FB /* TravellerTracker */ = {
+			isa = PBXGroup;
+			children = (
+				151E6FBA20246121002073FB /* AppDelegate.swift */,
+				151E6FBC20246121002073FB /* ViewController.swift */,
+				151E6FBE20246121002073FB /* Main.storyboard */,
+				151E6FC420246121002073FB /* Assets.xcassets */,
+				151E6FC620246121002073FB /* LaunchScreen.storyboard */,
+				151E6FC920246121002073FB /* Info.plist */,
+				151E6FC120246121002073FB /* TravellerTracker.xcdatamodeld */,
+			);
+			path = TravellerTracker;
+			sourceTree = "<group>";
+		};
+		151E6FD120246122002073FB /* TravellerTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				151E6FD220246122002073FB /* TravellerTrackerTests.swift */,
+				151E6FD420246122002073FB /* Info.plist */,
+			);
+			path = TravellerTrackerTests;
+			sourceTree = "<group>";
+		};
+		151E6FDC20246122002073FB /* TravellerTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				151E6FDD20246122002073FB /* TravellerTrackerUITests.swift */,
+				151E6FDF20246122002073FB /* Info.plist */,
+			);
+			path = TravellerTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		151E6FB620246121002073FB /* TravellerTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151E6FE220246122002073FB /* Build configuration list for PBXNativeTarget "TravellerTracker" */;
+			buildPhases = (
+				151E6FB320246121002073FB /* Sources */,
+				151E6FB420246121002073FB /* Frameworks */,
+				151E6FB520246121002073FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravellerTracker;
+			productName = TravellerTracker;
+			productReference = 151E6FB720246121002073FB /* TravellerTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		151E6FCD20246122002073FB /* TravellerTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151E6FE520246122002073FB /* Build configuration list for PBXNativeTarget "TravellerTrackerTests" */;
+			buildPhases = (
+				151E6FCA20246122002073FB /* Sources */,
+				151E6FCB20246122002073FB /* Frameworks */,
+				151E6FCC20246122002073FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				151E6FD020246122002073FB /* PBXTargetDependency */,
+			);
+			name = TravellerTrackerTests;
+			productName = TravellerTrackerTests;
+			productReference = 151E6FCE20246122002073FB /* TravellerTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		151E6FD820246122002073FB /* TravellerTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151E6FE820246122002073FB /* Build configuration list for PBXNativeTarget "TravellerTrackerUITests" */;
+			buildPhases = (
+				151E6FD520246122002073FB /* Sources */,
+				151E6FD620246122002073FB /* Frameworks */,
+				151E6FD720246122002073FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				151E6FDB20246122002073FB /* PBXTargetDependency */,
+			);
+			name = TravellerTrackerUITests;
+			productName = TravellerTrackerUITests;
+			productReference = 151E6FD920246122002073FB /* TravellerTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		151E6FAF20246121002073FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Matthieu DYE";
+				TargetAttributes = {
+					151E6FB620246121002073FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					151E6FCD20246122002073FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 151E6FB620246121002073FB;
+					};
+					151E6FD820246122002073FB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 151E6FB620246121002073FB;
+					};
+				};
+			};
+			buildConfigurationList = 151E6FB220246121002073FB /* Build configuration list for PBXProject "TravellerTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 151E6FAE20246121002073FB;
+			productRefGroup = 151E6FB820246121002073FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				151E6FB620246121002073FB /* TravellerTracker */,
+				151E6FCD20246122002073FB /* TravellerTrackerTests */,
+				151E6FD820246122002073FB /* TravellerTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		151E6FB520246121002073FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151E6FC820246121002073FB /* LaunchScreen.storyboard in Resources */,
+				151E6FC520246121002073FB /* Assets.xcassets in Resources */,
+				151E6FC020246121002073FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151E6FCC20246122002073FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151E6FD720246122002073FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		151E6FB320246121002073FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151E6FBD20246121002073FB /* ViewController.swift in Sources */,
+				151E6FBB20246121002073FB /* AppDelegate.swift in Sources */,
+				151E6FC320246121002073FB /* TravellerTracker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151E6FCA20246122002073FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151E6FD320246122002073FB /* TravellerTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151E6FD520246122002073FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151E6FDE20246122002073FB /* TravellerTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		151E6FD020246122002073FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 151E6FB620246121002073FB /* TravellerTracker */;
+			targetProxy = 151E6FCF20246122002073FB /* PBXContainerItemProxy */;
+		};
+		151E6FDB20246122002073FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 151E6FB620246121002073FB /* TravellerTracker */;
+			targetProxy = 151E6FDA20246122002073FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		151E6FBE20246121002073FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				151E6FBF20246121002073FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		151E6FC620246121002073FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				151E6FC720246121002073FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		151E6FE020246122002073FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		151E6FE120246122002073FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		151E6FE320246122002073FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravellerTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Polytech.Univ-Montp2.fr.TravellerTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		151E6FE420246122002073FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TravellerTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Polytech.Univ-Montp2.fr.TravellerTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		151E6FE620246122002073FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravellerTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Polytech.Univ-Montp2.fr.TravellerTrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravellerTracker.app/TravellerTracker";
+			};
+			name = Debug;
+		};
+		151E6FE720246122002073FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TravellerTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Polytech.Univ-Montp2.fr.TravellerTrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TravellerTracker.app/TravellerTracker";
+			};
+			name = Release;
+		};
+		151E6FE920246122002073FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TravellerTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Polytech.Univ-Montp2.fr.TravellerTrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TravellerTracker;
+			};
+			name = Debug;
+		};
+		151E6FEA20246122002073FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TravellerTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Polytech.Univ-Montp2.fr.TravellerTrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TravellerTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		151E6FB220246121002073FB /* Build configuration list for PBXProject "TravellerTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151E6FE020246122002073FB /* Debug */,
+				151E6FE120246122002073FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151E6FE220246122002073FB /* Build configuration list for PBXNativeTarget "TravellerTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151E6FE320246122002073FB /* Debug */,
+				151E6FE420246122002073FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		151E6FE520246122002073FB /* Build configuration list for PBXNativeTarget "TravellerTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151E6FE620246122002073FB /* Debug */,
+				151E6FE720246122002073FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		151E6FE820246122002073FB /* Build configuration list for PBXNativeTarget "TravellerTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151E6FE920246122002073FB /* Debug */,
+				151E6FEA20246122002073FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		151E6FC120246121002073FB /* TravellerTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				151E6FC220246121002073FB /* TravellerTracker.xcdatamodel */,
+			);
+			currentVersion = 151E6FC220246121002073FB /* TravellerTracker.xcdatamodel */;
+			path = TravellerTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 151E6FAF20246121002073FB /* Project object */;
+}
